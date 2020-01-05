@@ -16,8 +16,6 @@ $(document).ready(function(){
     e.preventDefault();  
    }
  
-  
-  
 
 //Starting on a page displaying start button a
 $('#start-button').click(function(e){
@@ -98,28 +96,6 @@ $('.time-box').show();
     quizContainer.innerHTML = output.join("");
       }
 
-
-//testing counting score #################
-       // We start the game with a score of 0.
-    var score = 0;
-
-    // Loop over every question object
-    for (var i = 0; i < currentQuestion.length; i++) {
-      // Display current question to user and ask OK/Cancel
-      var selector = `input[name=question${questionNumber}]:checked`;
-      var answer = (answerContainer.querySelector(selector) || {}).value;
-
-      // Compare answers
-      if ((userAnswer===currentQuestion.answer === true && currentQuestion[i].selector === "t") ||
-        (answer === false && questions[i].a === "f")) {
-        // Increase score
-        score++;
-        alert("Correct!");
-      }
-
-  //testing counting score #################
-
-/*
   //function to display results
   function showResults() {
     
@@ -142,8 +118,9 @@ $('.time-box').show();
   // a variable that stores user answer and stores it's value 
    var userAnswer = (answerContainer.querySelector(selector) || {}).value;
   
+   var  numCorrect = 0;
   // if answer is correct, increment increase out of 10
-      if (userAnswer===currentQuestion.answer) {
+      if (selector===currentQuestion.answer) {
        numCorrect++;
       } 
     
@@ -153,7 +130,6 @@ $('.time-box').show();
     resultsContainer.innerHTML = `Score: ${numCorrect} out of ${questions.length}`;
     
   }
-  */
   
 
   
