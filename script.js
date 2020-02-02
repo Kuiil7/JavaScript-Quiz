@@ -24,7 +24,7 @@ $('#start-button').click(function(e){
 
 
 //connecting the timer element id to be displayed onclick
-      display = document.querySelector('#TimeShow');
+      display = document.querySelector('#timeshow');
 //timer to be triggered upon click and display in a total of 150 seconds  
       startTimer(fifteenSeconds, display);
       

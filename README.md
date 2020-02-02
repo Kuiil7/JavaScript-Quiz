@@ -1,11 +1,8 @@
-This is a timer-based quiz application that stores high scores client-side. 
-
+# This is a timer-based quiz application: 
 
   * Clicking the "Start Quiz" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.
 
-  * Score is calculated by time remaining. Answering quickly and correctly results in a higher score.
-
-  * When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. Their final score and initials are then stored in `localStorage`.
+  * When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. 
 
 Here is the finished app screenshot: 
 ![QuizApp](quiz.jpg)
@@ -13,7 +10,7 @@ Here is the finished app screenshot:
 
 Built using: 
 
-# css, bootstrap, and jquery
+# css, bootstrap, and jQuery
 
 Repo:
 https://github.com/darh0ky/JavaScript-Quiz
