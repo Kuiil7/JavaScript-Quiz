@@ -1,26 +1,17 @@
-# This is a timer-based quiz application: 
+# JavaScript Quiz APP
 
-  * Clicking the "Start Quiz" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.
-
-  * When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. 
-
-Here is the finished app screenshot: 
 ![QuizApp](quiz.jpg)
 
+## FUNCTIONALITY
 
-Built using: 
+This is a timer-based quiz application:
 
-# css, bootstrap, and jQuery
+1. Clicking the "Start Quiz" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.
 
-Repo:
-https://github.com/darh0ky/JavaScript-Quiz
+2. When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials.
 
-Project URL:
-https://darh0ky.github.io/JavaScript-Quiz/
+### BUILT WITH:
 
-
-
-
-
-
-
+* css
+* bootstrap
+* jQuery

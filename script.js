@@ -117,8 +117,7 @@ $('.time-box').show();
   
   // a variable that stores user answer and stores it's value 
    var userAnswer = (answerContainer.querySelector(selector) || {}).value;
-  
-   var  numCorrect = 0;
+
   // if answer is correct, increment increase out of 10
       if (selector===currentQuestion.answer) {
        numCorrect++;
