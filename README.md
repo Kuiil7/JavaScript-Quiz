@@ -13,6 +13,6 @@ This is a timer-based quiz application:
 ### BUILT WITH:
 
 * HTML
-* css
-* bootstrap
+* CSS
+* Bootstrap
 * jQuery
