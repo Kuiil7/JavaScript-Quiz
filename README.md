@@ -1,6 +1,6 @@
 # JavaScript Quiz APP
 
-![QuizApp](quiz.jpg)
+![QuizApp](quiz.png)
 
 ## FUNCTIONALITY
 
